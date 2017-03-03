@@ -1,5 +1,5 @@
 
-drawPyramid(5);
+drawPyramid(10);
 
 
 /**
@@ -24,7 +24,7 @@ function drawPyramid(height) {
         // build up a string for this row
         var rowStr = "";
         for (var i = 0; i < numSpaces; i++) {
-            rowStr += "."; // QUIZ: what happens if we use a space (" ") instead of a period?
+            rowStr += "&nbsp"; // QUIZ: what happens if we use a space (" ") instead of a period?
         }
         for (var i = 0; i < numBricks; i++) {
             rowStr += "#";
