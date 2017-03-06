@@ -40,7 +40,7 @@ document.getElementById("drawPyramid").onclick = function start() {
 
      // TODO 4
      // before drawing, clear the old content
-
+     document.getElementById("pyramid").innerHTML = "";
 
      // for each row....
      for (var row = 0; row < height; row++) {
