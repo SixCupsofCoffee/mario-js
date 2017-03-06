@@ -19,13 +19,15 @@ function determineHeightAndThenDrawPyramid() {
 
     // TODO 2
     // draw the pyramid with the given height
-
+    drawPyramid(height);
 }
 
 
 // TODO 1
 // hook up the button's click event to our determineHeightAndThenDrawPyramid function
-
+document.getElementById("drawPyramid").onclick = function fun() {
+    determineHeightAndThenDrawPyramid();
+}
 
 
 /**
