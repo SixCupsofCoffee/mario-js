@@ -14,10 +14,12 @@ printPyramid(5);
  *      ######
  */
 function printPyramid(height) {
-    console.log("Uh oh... the pyramid is under construction.");
-    console.log("Check back soon, our developers are hard at work as we speak!");
+    // console.log("Uh oh... the pyramid is under construction.");
+    // console.log("Check back soon, our developers are hard at work as we speak!");
 
     // TODO
     // print that pyramid!
 
+for (var line_length = 0; line_length < 8; line_length += 1)
+ console.log("#".repeat(line_length));
 }
